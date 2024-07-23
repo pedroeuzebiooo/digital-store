@@ -32,18 +32,18 @@ export function App() {
         </div>
       </header>
 
-      <section className="p-5 bg-light-gray-3 space-y-12">
+      <section className="flex flex-col justify-center items-center gap-12 p-5 bg-light-gray-3">
         <img src={whiteSneakers} alt="White Sneakers" />
 
-        <p className="text-sm text-primary text-center font-bold">
+        <p className="text-sm text-primary font-bold">
           Melhores ofertas personalizadas
         </p>
 
-        <h1 className="text-5xl text-center font-bold">
+        <h1 className="text-5xl font-bold text-center">
           Queima de estoque Nike 🔥
         </h1>
 
-        <p className="text-sm text-dark-gray-2 text-center">
+        <p className="text-dark-gray-2 text-center">
           Consequat culpa exercitation mollit nisi excepteur do do tempor
           laboris eiusmod irure consectetur.
         </p>
