@@ -53,7 +53,7 @@ export function App() {
 
         <button
           type="button"
-          className="flex justify-center items-center bg-primary text-sm text-light-gray-3 font-bold w-full rounded-lg p-4"
+          className="flex justify-center items-center bg-primary text-light-gray-3 font-bold w-full rounded-lg p-4"
         >
           Ver Ofertas
         </button>
