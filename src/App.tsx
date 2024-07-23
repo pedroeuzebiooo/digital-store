@@ -6,7 +6,7 @@ import adidasCollection from "./assets/adidas-collection.png";
 import newBeatsBass from "./assets/new-beats-bass.png";
 import ornament from "./assets/ornament.svg";
 import tShirt from "./assets/t-shirt.png";
-import trousers from "./assets/trousers.png";
+import trouser from "./assets/trouser.png";
 import headphone from "./assets/headphone.png";
 import sneaker from "./assets/sneaker.png";
 
@@ -91,7 +91,7 @@ export function App() {
 
           <div className="flex flex-col justify-center items-center gap-4">
             <div className="p-5 bg-white rounded-full text-center">
-              <img src={trousers} alt="Calça" />
+              <img src={trouser} alt="Calça" />
             </div>
             <p className="text-xs text-dark-gray-2 font-bold">Calças</p>
           </div>
