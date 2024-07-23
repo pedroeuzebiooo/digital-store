@@ -63,7 +63,7 @@ export function App() {
         </div>
       </section>
 
-      <section className="p-5 bg-light-gray-3 space-y-3">
+      <section className="p-5 bg-light-gray-3 space-y-4">
         <h2 className="text-base text-dark-gray-2 font-bold">
           Coleções em destaque
         </h2>
