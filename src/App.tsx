@@ -11,7 +11,7 @@ import Tenis from "./assets/tenis.png";
 
 export function App() {
   return (
-    <div className="w-96 mt-12 mx-auto">
+    <div className="w-96 mx-auto">
       <header className="flex items-center justify-between p-5">
         <Menu className="size-6 text-[#1F1F1F]" />
 
