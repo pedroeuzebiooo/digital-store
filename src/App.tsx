@@ -1,5 +1,6 @@
 import { Menu, Search, ShoppingCart } from "lucide-react";
 import Logo from "./assets/logo.svg";
+import WhiteSneakers from "./assets/white-sneakers.png";
 
 function App() {
   return (
@@ -20,6 +21,37 @@ function App() {
           </span>
         </div>
       </header>
+
+      <section className="p-5 bg-[#F5F5F5] space-y-8">
+        <img src={WhiteSneakers} alt="White Sneakers" />
+
+        <p className="text-sm text-[#C92071] text-center font-bold">
+          Melhores ofertas personalizadas
+        </p>
+
+        <h1 className="text-5xl text-[#1F1F1F] text-center font-bold">
+          Queima de estoque Nike 🔥
+        </h1>
+
+        <p className="text-sm text-[#474747] text-center">
+          Consequat culpa exercitation mollit nisi excepteur do do tempor
+          laboris eiusmod irure consectetur.
+        </p>
+
+        <button
+          type="button"
+          className="flex justify-center items-center bg-[#C92071] text-sm text-[#F5F5F5] font-bold w-full rounded-lg p-3"
+        >
+          Ver Ofertas
+        </button>
+
+        <div className="flex justify-center items-center gap-3">
+          <div className="w-3 h-3 bg-[#C92071] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
+          <div className="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
+        </div>
+      </section>
     </div>
   );
 }
