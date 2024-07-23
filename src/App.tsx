@@ -7,7 +7,7 @@ import newBeatsBass from "./assets/new-beats-bass.png";
 import ornament from "./assets/ornament.svg";
 import tShirt from "./assets/t-shirt.png";
 import trousers from "./assets/trousers.png";
-import Headphone from "./assets/headphone.png";
+import headphone from "./assets/headphone.png";
 import sneaker from "./assets/sneaker.png";
 
 export function App() {
@@ -98,7 +98,7 @@ export function App() {
 
           <div className="flex flex-col justify-center items-center gap-4">
             <div className="p-5 bg-white rounded-full text-center">
-              <img src={Headphone} alt="Headphone" />
+              <img src={headphone} alt="Headphone" />
             </div>
             <p className="text-xs text-dark-gray-2 font-bold">Headphones</p>
           </div>
