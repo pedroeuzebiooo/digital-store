@@ -56,10 +56,10 @@ export function App() {
         </button>
 
         <div className="flex justify-center items-center gap-4">
-          <div className="w-3 h-3 bg-primary rounded-full"></div>
-          <div className="w-3 h-3 bg-light-gray-2 rounded-full"></div>
-          <div className="w-3 h-3 bg-light-gray-2 rounded-full"></div>
-          <div className="w-3 h-3 bg-light-gray-2 rounded-full"></div>
+          <div className="w-4 h-4 bg-primary rounded-full"></div>
+          <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
+          <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
+          <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
         </div>
       </section>
 
