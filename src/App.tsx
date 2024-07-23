@@ -15,7 +15,7 @@ import sneakers from "./assets/sneakers.png";
 export function App() {
   return (
     <div className="w-96 mx-auto">
-      <header className="flex items-center justify-between p-5">
+      <header className="flex items-center justify-between px-5 py-8">
         <Menu className="size-6" />
 
         <a href="#">
