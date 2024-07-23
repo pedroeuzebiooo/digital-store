@@ -1,4 +1,4 @@
-import { Menu, Search, ShoppingCart } from "lucide-react";
+import { ArrowRight, Menu, Search, ShoppingCart } from "lucide-react";
 import logo from "./assets/logo.svg";
 import whiteSneakers from "./assets/white-sneakers.png";
 import newDropSupreme from "./assets/new-drop-supreme.png";
@@ -9,6 +9,7 @@ import tShirt from "./assets/t-shirt.png";
 import trouser from "./assets/trouser.png";
 import headphone from "./assets/headphone.png";
 import sneaker from "./assets/sneaker.png";
+import layer from "./assets/layer.png";
 
 export function App() {
   return (
@@ -108,6 +109,124 @@ export function App() {
               <img src={sneaker} alt="Tênis" />
             </div>
             <p className="text-sm text-dark-gray-2 font-bold">Tênis</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="p-5 bg-light-gray-3 space-y-5">
+        <div className="flex items-center justify-between">
+          <h2 className="text-dark-gray-2 font-bold">Coleções em destaque</h2>
+
+          <a
+            href="#"
+            className="text-primary flex items-center justify-center gap-2"
+          >
+            Ver todos
+            <ArrowRight className="size-6" />
+          </a>
+        </div>
+
+        <div className="grid grid-cols-2 justify-center items-center gap-4">
+          <div className="flex flex-col justify-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center gap-4">
+              <span className="block py-1 px-4 bg-[#E7FF86] text-dark-gray-2 uppercase font-bold rounded-full">
+                30% Off
+              </span>
+              <img src={layer} alt="Layer" />
+            </div>
+            <small className="font-bold text-light-gray">Tênis</small>
+            <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
+            <div className="flex gap-4">
+              <p className="text-light-gray line-through">$200</p>
+              <p>$100</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center gap-4">
+              <span className="block py-1 px-4 bg-[#E7FF86] text-dark-gray-2 uppercase font-bold rounded-full">
+                30% Off
+              </span>
+              <img src={layer} alt="Layer" />
+            </div>
+            <small className="font-bold text-light-gray">Tênis</small>
+            <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
+            <div className="flex gap-4">
+              <p className="text-light-gray line-through">$200</p>
+              <p>$100</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+              <img src={layer} alt="Layer" />
+            </div>
+            <small className="font-bold text-light-gray">Tênis</small>
+            <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
+            <div className="flex gap-4">
+              <p className="text-light-gray line-through">$200</p>
+              <p>$100</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+              <img src={layer} alt="Layer" />
+            </div>
+            <small className="font-bold text-light-gray">Tênis</small>
+            <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
+            <div className="flex gap-4">
+              <p className="text-light-gray line-through">$200</p>
+              <p>$100</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+              <img src={layer} alt="Layer" />
+            </div>
+            <small className="font-bold text-light-gray">Tênis</small>
+            <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
+            <div className="flex gap-4">
+              <p className="text-light-gray line-through">$200</p>
+              <p>$100</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+              <img src={layer} alt="Layer" />
+            </div>
+            <small className="font-bold text-light-gray">Tênis</small>
+            <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
+            <div className="flex gap-4">
+              <p className="text-light-gray line-through">$200</p>
+              <p>$100</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+              <img src={layer} alt="Layer" />
+            </div>
+            <small className="font-bold text-light-gray">Tênis</small>
+            <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
+            <div className="flex gap-4">
+              <p className="text-light-gray line-through">$200</p>
+              <p>$100</p>
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+              <img src={layer} alt="Layer" />
+            </div>
+            <small className="font-bold text-light-gray">Tênis</small>
+            <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
+            <div className="flex gap-4">
+              <p className="text-light-gray line-through">$200</p>
+              <p>$100</p>
+            </div>
           </div>
         </div>
       </section>
