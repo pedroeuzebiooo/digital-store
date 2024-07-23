@@ -9,7 +9,7 @@ import Calca from "./assets/calca.png";
 import Headphone from "./assets/headphone.png";
 import Tenis from "./assets/tenis.png";
 
-function App() {
+export function App() {
   return (
     <div className="w-96 mt-12 mx-auto">
       <header className="flex items-center justify-between p-5">
@@ -112,5 +112,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
