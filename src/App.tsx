@@ -3,7 +3,7 @@ import logo from "./assets/logo.svg";
 import whiteSneakers from "./assets/white-sneakers.png";
 import newDropSupreme from "./assets/new-drop-supreme.png";
 import adidasCollection from "./assets/adidas-collection.png";
-import novoBeatsBass from "./assets/novo-beats-bass.png";
+import newBeatsBass from "./assets/new-beats-bass.png";
 import Camiseta from "./assets/camiseta.png";
 import Calca from "./assets/calca.png";
 import Headphone from "./assets/headphone.png";
@@ -71,7 +71,7 @@ export function App() {
 
           <img src={adidasCollection} alt="Coleção Adidas" />
 
-          <img src={novoBeatsBass} alt="Novo Beats Bass" />
+          <img src={newBeatsBass} alt="Novo Beats Bass" />
         </div>
       </section>
 
