@@ -1,5 +1,5 @@
 import { Menu, Search, ShoppingCart } from "lucide-react";
-import Logo from "./assets/logo.svg";
+import logo from "./assets/logo.svg";
 import WhiteSneakers from "./assets/white-sneakers.png";
 import novoDropSupreme from "./assets/novo-drop-supreme.png";
 import colecaoAdidas from "./assets/colecao-adidas.png";
@@ -16,7 +16,7 @@ export function App() {
         <Menu className="size-6" />
 
         <a href="#">
-          <img src={Logo} alt="Logo do Tennis Store" />
+          <img src={logo} alt="Logo do Tennis Store" />
         </a>
 
         <div className="flex items-center gap-3 relative">
