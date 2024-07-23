@@ -9,7 +9,7 @@ import tShirt from "./assets/t-shirt.png";
 import trouser from "./assets/trouser.png";
 import headphone from "./assets/headphone.png";
 import sneakerCategory from "./assets/sneaker-category.png";
-import layer from "./assets/layer.png";
+import sneaker from "./assets/sneaker.png";
 
 export function App() {
   return (
@@ -132,7 +132,7 @@ export function App() {
               <span className="block py-1 px-4 bg-[#E7FF86] text-dark-gray-2 uppercase font-bold rounded-full">
                 30% Off
               </span>
-              <img src={layer} alt="Layer" />
+              <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
@@ -147,7 +147,7 @@ export function App() {
               <span className="block py-1 px-4 bg-[#E7FF86] text-dark-gray-2 uppercase font-bold rounded-full">
                 30% Off
               </span>
-              <img src={layer} alt="Layer" />
+              <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
@@ -159,7 +159,7 @@ export function App() {
 
           <div className="flex flex-col justify-center gap-4">
             <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
-              <img src={layer} alt="Layer" />
+              <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
@@ -171,7 +171,7 @@ export function App() {
 
           <div className="flex flex-col justify-center gap-4">
             <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
-              <img src={layer} alt="Layer" />
+              <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
@@ -183,7 +183,7 @@ export function App() {
 
           <div className="flex flex-col justify-center gap-4">
             <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
-              <img src={layer} alt="Layer" />
+              <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
@@ -195,7 +195,7 @@ export function App() {
 
           <div className="flex flex-col justify-center gap-4">
             <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
-              <img src={layer} alt="Layer" />
+              <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
@@ -207,7 +207,7 @@ export function App() {
 
           <div className="flex flex-col justify-center gap-4">
             <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
-              <img src={layer} alt="Layer" />
+              <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
@@ -219,7 +219,7 @@ export function App() {
 
           <div className="flex flex-col justify-center gap-4">
             <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
-              <img src={layer} alt="Layer" />
+              <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
