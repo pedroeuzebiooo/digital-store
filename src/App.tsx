@@ -38,7 +38,7 @@ export function App() {
       <section className="px-5 py-8 bg-light-gray-3 space-y-8 relative">
         <img src={whiteSneakers} alt="White Sneakers" />
 
-        <p className="text-sm text-primary font-bold text-center">
+        <p className="text-primary font-bold text-center">
           Melhores ofertas personalizadas
         </p>
 
