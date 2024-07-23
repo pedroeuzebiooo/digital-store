@@ -5,7 +5,7 @@ import newDropSupreme from "./assets/new-drop-supreme.png";
 import adidasCollection from "./assets/adidas-collection.png";
 import newBeatsBass from "./assets/new-beats-bass.png";
 import ornament from "./assets/ornament.svg";
-import Camiseta from "./assets/camiseta.png";
+import tShirt from "./assets/t-shirt.png";
 import Calca from "./assets/calca.png";
 import Headphone from "./assets/headphone.png";
 import Tenis from "./assets/tenis.png";
@@ -84,7 +84,7 @@ export function App() {
         <div className="grid grid-cols-2 justify-center items-center gap-5">
           <div className="flex flex-col justify-center items-center gap-4">
             <div className="p-5 bg-white rounded-full text-center">
-              <img src={Camiseta} alt="Camiseta" />
+              <img src={tShirt} alt="Camiseta" />
             </div>
             <p className="text-xs text-dark-gray-2 font-bold">Camisetas</p>
           </div>
