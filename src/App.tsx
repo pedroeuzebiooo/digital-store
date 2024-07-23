@@ -58,7 +58,7 @@ export function App() {
           Ver Ofertas
         </button>
 
-        <div className="flex justify-center items-center gap-4">
+        <div className="flex justify-center items-center gap-5">
           <div className="w-4 h-4 bg-primary rounded-full"></div>
           <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
           <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
