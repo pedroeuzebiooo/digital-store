@@ -79,9 +79,7 @@ export function App() {
       </section>
 
       <section className="p-5 bg-light-gray-3 space-y-5">
-        <h2 className="text-base text-dark-gray-2 font-bold">
-          Coleções em destaque
-        </h2>
+        <h2 className="text-dark-gray-2 font-bold">Coleções em destaque</h2>
 
         <div className="grid grid-cols-2 justify-center items-center gap-5">
           <div className="flex flex-col justify-center items-center gap-3">
