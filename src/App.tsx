@@ -8,7 +8,7 @@ import ornament from "./assets/ornament.svg";
 import tShirt from "./assets/t-shirt.png";
 import trouser from "./assets/trouser.png";
 import headphone from "./assets/headphone.png";
-import sneaker from "./assets/sneaker.png";
+import sneakerCategory from "./assets/sneaker-category.png";
 import layer from "./assets/layer.png";
 
 export function App() {
@@ -106,7 +106,7 @@ export function App() {
 
           <div className="flex flex-col justify-center items-center gap-4">
             <div className="p-5 bg-white rounded-full">
-              <img src={sneaker} alt="Tênis" />
+              <img src={sneakerCategory} alt="Tênis" />
             </div>
             <p className="text-sm text-dark-gray-2 font-bold">Tênis</p>
           </div>
