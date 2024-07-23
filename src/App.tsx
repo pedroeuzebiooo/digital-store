@@ -16,7 +16,7 @@ export function App() {
         <Menu className="size-6" />
 
         <a href="#">
-          <img src={logo} alt="Logo do Tennis Store" />
+          <img src={logo} alt="Logo do Digital Store" />
         </a>
 
         <div className="flex items-center gap-3 relative">
