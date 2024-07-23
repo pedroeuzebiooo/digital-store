@@ -72,11 +72,23 @@ export function App() {
         <h2 className="text-dark-gray-2 font-bold">Coleções em destaque</h2>
 
         <div className="flex flex-col justify-center items-center gap-5">
-          <img src={newDropSupreme} alt="Novo Drop Supreme" />
+          <img
+            src={newDropSupreme}
+            alt="Novo Drop Supreme"
+            className="rounded-lg"
+          />
 
-          <img src={adidasCollection} alt="Coleção Adidas" />
+          <img
+            src={adidasCollection}
+            alt="Coleção Adidas"
+            className="rounded-lg"
+          />
 
-          <img src={newBeatsBass} alt="Novo Beats Bass" />
+          <img
+            src={newBeatsBass}
+            alt="Novo Beats Bass"
+            className="rounded-lg"
+          />
         </div>
       </section>
 
