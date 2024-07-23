@@ -4,6 +4,7 @@ import whiteSneakers from "./assets/white-sneakers.png";
 import newDropSupreme from "./assets/new-drop-supreme.png";
 import adidasCollection from "./assets/adidas-collection.png";
 import newBeatsBass from "./assets/new-beats-bass.png";
+import ornament from "./assets/ornament.svg";
 import Camiseta from "./assets/camiseta.png";
 import Calca from "./assets/calca.png";
 import Headphone from "./assets/headphone.png";
@@ -32,7 +33,7 @@ export function App() {
         </div>
       </header>
 
-      <section className="p-5 bg-light-gray-3 space-y-12">
+      <section className="p-5 bg-light-gray-3 space-y-12 relative">
         <img src={whiteSneakers} alt="White Sneakers" />
 
         <p className="text-sm text-primary font-bold text-center">
@@ -61,6 +62,8 @@ export function App() {
           <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
           <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
         </div>
+
+        <img src={ornament} alt="Ornament" className="absolute top-5 right-0" />
       </section>
 
       <section className="p-5 bg-light-gray-3 space-y-4">
