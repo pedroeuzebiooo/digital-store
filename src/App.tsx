@@ -4,6 +4,10 @@ import WhiteSneakers from "./assets/white-sneakers.png";
 import novoDropSupreme from "./assets/novo-drop-supreme.png";
 import colecaoAdidas from "./assets/colecao-adidas.png";
 import novoBeatsBass from "./assets/novo-beats-bass.png";
+import Camiseta from "./assets/camiseta.png";
+import Calca from "./assets/calca.png";
+import Headphone from "./assets/headphone.png";
+import Tenis from "./assets/tenis.png";
 
 function App() {
   return (
@@ -67,6 +71,42 @@ function App() {
           <img src={colecaoAdidas} alt="Coleção Adidas" />
 
           <img src={novoBeatsBass} alt="Novo Beats Bass" />
+        </div>
+      </section>
+
+      <section className="p-5 bg-[#F5F5F5] space-y-5">
+        <h2 className="text-base text-[#474747] font-bold">
+          Coleções em destaque
+        </h2>
+
+        <div className="grid grid-cols-2 justify-center items-center gap-3">
+          <div className="flex flex-col justify-center items-center gap-3">
+            <div className="p-5 bg-white rounded-full text-center">
+              <img src={Camiseta} alt="Camiseta" />
+            </div>
+            <p className="text-xs text-[#474747] font-bold">Camisetas</p>
+          </div>
+
+          <div className="flex flex-col justify-center items-center gap-3">
+            <div className="p-5 bg-white rounded-full text-center">
+              <img src={Calca} alt="Calça" />
+            </div>
+            <p className="text-xs text-[#474747] font-bold">Calças</p>
+          </div>
+
+          <div className="flex flex-col justify-center items-center gap-3">
+            <div className="p-5 bg-white rounded-full text-center">
+              <img src={Headphone} alt="Headphone" />
+            </div>
+            <p className="text-xs text-[#474747] font-bold">Headphones</p>
+          </div>
+
+          <div className="flex flex-col justify-center items-center gap-3">
+            <div className="p-5 bg-white rounded-full text-center">
+              <img src={Tenis} alt="Tênis" />
+            </div>
+            <p className="text-xs text-[#474747] font-bold">Tênis</p>
+          </div>
         </div>
       </section>
     </div>
