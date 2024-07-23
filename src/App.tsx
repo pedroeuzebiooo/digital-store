@@ -1,6 +1,6 @@
 import { Menu, Search, ShoppingCart } from "lucide-react";
 import logo from "./assets/logo.svg";
-import WhiteSneakers from "./assets/white-sneakers.png";
+import whiteSneakers from "./assets/white-sneakers.png";
 import novoDropSupreme from "./assets/novo-drop-supreme.png";
 import colecaoAdidas from "./assets/colecao-adidas.png";
 import novoBeatsBass from "./assets/novo-beats-bass.png";
@@ -33,7 +33,7 @@ export function App() {
       </header>
 
       <section className="p-5 bg-light-gray-3 space-y-8">
-        <img src={WhiteSneakers} alt="White Sneakers" />
+        <img src={whiteSneakers} alt="White Sneakers" />
 
         <p className="text-sm text-primary text-center font-bold">
           Melhores ofertas personalizadas
