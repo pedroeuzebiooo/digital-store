@@ -1,6 +1,9 @@
 import { Menu, Search, ShoppingCart } from "lucide-react";
 import Logo from "./assets/logo.svg";
 import WhiteSneakers from "./assets/white-sneakers.png";
+import novoDropSupreme from "./assets/novo-drop-supreme.png";
+import colecaoAdidas from "./assets/colecao-adidas.png";
+import novoBeatsBass from "./assets/novo-beats-bass.png";
 
 function App() {
   return (
@@ -50,6 +53,20 @@ function App() {
           <div className="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
           <div className="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
           <div className="w-3 h-3 bg-[#CCCCCC] rounded-full"></div>
+        </div>
+      </section>
+
+      <section className="p-5 bg-[#F5F5F5] space-y-3">
+        <h2 className="text-base text-[#474747] font-bold">
+          Coleções em destaque
+        </h2>
+
+        <div className="flex flex-col justify-center items-center gap-3">
+          <img src={novoDropSupreme} alt="Novo Drop Supreme" />
+
+          <img src={colecaoAdidas} alt="Coleção Adidas" />
+
+          <img src={novoBeatsBass} alt="Novo Beats Bass" />
         </div>
       </section>
     </div>
