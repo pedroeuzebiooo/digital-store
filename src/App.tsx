@@ -19,7 +19,7 @@ export function App() {
           <img src={logo} alt="Logo do Digital Store" />
         </a>
 
-        <div className="flex items-center justify-center gap-3">
+        <div className="flex items-center justify-center gap-4">
           <Search className="size-6 text-light-gray-2" />
 
           <div className="relative">
