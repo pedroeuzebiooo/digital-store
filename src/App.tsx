@@ -83,7 +83,7 @@ export function App() {
           Coleções em destaque
         </h2>
 
-        <div className="grid grid-cols-2 justify-center items-center gap-3">
+        <div className="grid grid-cols-2 justify-center items-center gap-5">
           <div className="flex flex-col justify-center items-center gap-3">
             <div className="p-5 bg-white rounded-full text-center">
               <img src={Camiseta} alt="Camiseta" />
