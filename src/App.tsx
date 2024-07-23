@@ -10,6 +10,7 @@ import trouser from "./assets/trouser.png";
 import headphone from "./assets/headphone.png";
 import sneakerCategory from "./assets/sneaker-category.png";
 import sneaker from "./assets/sneaker.png";
+import sneakers from "./assets/sneakers.png";
 
 export function App() {
   return (
@@ -228,6 +229,34 @@ export function App() {
               <p>$100</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="p-5 space-y-5">
+        <div className="w-72 h-72 mx-auto flex justify-center items-center bg-light-gray-3 rounded-full p-12">
+          <img src={sneakers} alt="Sneakers" />
+        </div>
+
+        <div className="flex flex-col justify-center gap-8">
+          <p className="text-warning">Oferta especial</p>
+
+          <h2 className="text-3xl text-dark-gray-2 font-bold">
+            Air Jordan edição de colecionador
+          </h2>
+
+          <p className="text-dark-gray-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip
+          </p>
+
+          <button
+            type="button"
+            className="bg-primary text-light-gray-3 font-bold w-48 py-2 px-4 rounded-lg"
+          >
+            Ver Oferta
+          </button>
         </div>
       </section>
     </div>
