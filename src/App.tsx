@@ -19,8 +19,9 @@ export function App() {
           <img src={logo} alt="Logo do Digital Store" />
         </a>
 
-        <div className="flex items-center gap-3 relative">
+        <div className="flex items-center justify-center gap-3 relative">
           <Search className="size-6 text-light-gray-2" />
+
           <ShoppingCart className="size-6 text-primary" />
 
           <span className="flex items-center justify-center w-4 h-4 p-1 rounded-full bg-error text-xs text-white font-bold absolute right-[-0.25rem] top-[-0.25rem]">
