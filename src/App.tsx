@@ -2,7 +2,7 @@ import { Menu, Search, ShoppingCart } from "lucide-react";
 import logo from "./assets/logo.svg";
 import whiteSneakers from "./assets/white-sneakers.png";
 import newDropSupreme from "./assets/new-drop-supreme.png";
-import colecaoAdidas from "./assets/colecao-adidas.png";
+import adidasCollection from "./assets/adidas-collection.png";
 import novoBeatsBass from "./assets/novo-beats-bass.png";
 import Camiseta from "./assets/camiseta.png";
 import Calca from "./assets/calca.png";
@@ -69,7 +69,7 @@ export function App() {
         <div className="flex flex-col justify-center items-center gap-4">
           <img src={newDropSupreme} alt="Novo Drop Supreme" />
 
-          <img src={colecaoAdidas} alt="Coleção Adidas" />
+          <img src={adidasCollection} alt="Coleção Adidas" />
 
           <img src={novoBeatsBass} alt="Novo Beats Bass" />
         </div>
