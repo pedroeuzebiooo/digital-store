@@ -35,7 +35,7 @@ export function App() {
       <section className="p-5 bg-light-gray-3 space-y-12">
         <img src={whiteSneakers} alt="White Sneakers" />
 
-        <p className="text-sm text-primary font-bold">
+        <p className="text-sm text-primary font-bold text-center">
           Melhores ofertas personalizadas
         </p>
 
