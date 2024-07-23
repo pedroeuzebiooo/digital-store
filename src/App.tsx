@@ -75,19 +75,19 @@ export function App() {
           <img
             src={newDropSupreme}
             alt="Novo Drop Supreme"
-            className="rounded-lg"
+            className="rounded-lg shadow-lg"
           />
 
           <img
             src={adidasCollection}
             alt="Coleção Adidas"
-            className="rounded-lg"
+            className="rounded-lg shadow-lg"
           />
 
           <img
             src={newBeatsBass}
             alt="Novo Beats Bass"
-            className="rounded-lg"
+            className="rounded-lg shadow-lg"
           />
         </div>
       </section>
