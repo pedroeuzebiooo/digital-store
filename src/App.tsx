@@ -72,7 +72,7 @@ export function App() {
         <h2 className="text-dark-gray-2 font-bold">Coleções em destaque</h2>
 
         <div className="flex flex-col justify-center items-center gap-5">
-          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative">
+          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative shadow-lg">
             <span className="bg-[#E7FF86] text-dark-gray-2 font-bold uppercase py-2 px-4 rounded-full shadow-lg">
               30% Off
             </span>
@@ -93,7 +93,7 @@ export function App() {
             />
           </div>
 
-          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative">
+          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative shadow-lg">
             <span className="bg-[#E7FF86] text-dark-gray-2 font-bold uppercase py-2 px-4 rounded-full shadow-lg">
               30% Off
             </span>
@@ -114,7 +114,7 @@ export function App() {
             />
           </div>
 
-          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative">
+          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative shadow-lg">
             <span className="bg-[#E7FF86] text-dark-gray-2 font-bold uppercase py-2 px-4 rounded-full shadow-lg">
               30% Off
             </span>
