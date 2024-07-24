@@ -184,7 +184,7 @@ export function App() {
           </a>
         </div>
 
-        <div className="grid grid-cols-2 justify-center items-center gap-4">
+        <div className="grid grid-cols-2 justify-center items-center gap-5">
           <div className="flex flex-col justify-center gap-4">
             <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center gap-4">
               <span className="block py-1 px-4 bg-[#E7FF86] text-dark-gray-2 uppercase font-bold rounded-full">
