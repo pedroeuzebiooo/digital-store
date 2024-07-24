@@ -177,7 +177,7 @@ export function App() {
 
           <a
             href="#"
-            className="text-primary flex items-center justify-center gap-2"
+            className="text-primary font-bold flex items-center justify-center gap-2"
           >
             Ver todos
             <ArrowRight className="size-6" />
