@@ -9,6 +9,10 @@ export function Header() {
     setIsSearchOpen(true);
   }
 
+  function closeSearch() {
+    setIsSearchOpen(false);
+  }
+
   return (
     <header className="px-5 py-8 relative z-10 shadow-lg space-y-5">
       <nav className="flex items-center justify-between">
@@ -20,7 +24,7 @@ export function Header() {
 
         <div className="flex items-center justify-center gap-4">
           {isSearchOpen ? (
-            <Search className="size-6 text-primary" />
+            <Search className="size-6 text-primary" onClick={closeSearch} />
           ) : (
             <Search className="size-6 text-light-gray-2" onClick={openSearch} />
           )}
