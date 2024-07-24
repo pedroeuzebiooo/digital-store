@@ -18,6 +18,10 @@ export function Header() {
     setIsMenuOpen(true);
   }
 
+  function closeMenu() {
+    setIsMenuOpen(false);
+  }
+
   return (
     <>
       <header className="px-5 py-8 relative z-10 shadow-lg space-y-5">
@@ -68,7 +72,7 @@ export function Header() {
               <div className="flex items-center justify-between">
                 <h3 className="text-dark-gray-2 font-bold">Páginas</h3>
 
-                <X className="size-6 text-dark-gray-2" />
+                <X className="size-6 text-dark-gray-2" onClick={closeMenu} />
               </div>
 
               <ul className="flex flex-col gap-5">
