@@ -171,7 +171,7 @@ export function App() {
         </div>
       </section>
 
-      <section className="p-5 bg-light-gray-3 space-y-5">
+      <section className="px-5 py-8 bg-light-gray-3 space-y-5">
         <div className="flex items-center justify-between">
           <h2 className="text-dark-gray-2 font-bold">Coleções em destaque</h2>
 
