@@ -65,7 +65,7 @@ export function App() {
           <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
         </div>
 
-        <img src={ornament} alt="Ornament" className="absolute top-5 right-0" />
+        <img src={ornament} alt="Ornament" className="absolute top-0 right-0" />
       </section>
 
       <section className="px-5 py-8 bg-light-gray-3 space-y-5">
