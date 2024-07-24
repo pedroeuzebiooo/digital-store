@@ -289,7 +289,7 @@ export function App() {
         </div>
       </section>
 
-      <section className="p-5 space-y-5">
+      <section className="px-5 py-8 space-y-5">
         <div className="w-72 h-72 mx-auto flex justify-center items-center bg-light-gray-3 rounded-full p-12">
           <img src={sneakers} alt="Sneakers" />
         </div>
