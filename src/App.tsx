@@ -186,7 +186,7 @@ export function App() {
 
         <div className="grid grid-cols-2 justify-center items-center gap-5">
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center gap-4 shadow-lg">
               <span className="block py-1 px-4 bg-[#E7FF86] text-dark-gray-2 uppercase font-bold rounded-full">
                 30% Off
               </span>
@@ -201,7 +201,7 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center gap-4">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center gap-4 shadow-lg">
               <span className="block py-1 px-4 bg-[#E7FF86] text-dark-gray-2 uppercase font-bold rounded-full">
                 30% Off
               </span>
@@ -216,7 +216,7 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray text-sm">Tênis</small>
@@ -228,7 +228,7 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray text-sm">Tênis</small>
@@ -240,7 +240,7 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray text-sm">Tênis</small>
@@ -252,7 +252,7 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray text-sm">Tênis</small>
@@ -264,7 +264,7 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray text-sm">Tênis</small>
@@ -276,7 +276,7 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center">
+            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
             <small className="font-bold text-light-gray text-sm">Tênis</small>
