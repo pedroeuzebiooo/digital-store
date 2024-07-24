@@ -1,10 +1,10 @@
 import { ArrowRight, Menu, Search, ShoppingCart } from "lucide-react";
 import logo from "./assets/logo.svg";
 import whiteSneakers from "./assets/white-sneakers.png";
-import newDropSupreme from "./assets/new-drop-supreme.png";
-import adidasCollection from "./assets/adidas-collection.png";
-import newBeatsBass from "./assets/new-beats-bass.png";
 import ornament from "./assets/ornament.svg";
+import starsWarsStormTrooperSupreme from "./assets/star-wars-storm-trooper-supreme.png";
+import sneakerFeaturedCollectionsSection1 from "./assets/sneaker-featured-collections-section-1.png";
+import headphoneFeaturedCollectionsSection1 from "./assets/headphone-featured-collections-section-1.png";
 import tShirt from "./assets/t-shirt.png";
 import trouser from "./assets/trouser.png";
 import headphone from "./assets/headphone.png";
@@ -72,23 +72,68 @@ export function App() {
         <h2 className="text-dark-gray-2 font-bold">Coleções em destaque</h2>
 
         <div className="flex flex-col justify-center items-center gap-5">
-          <img
-            src={newDropSupreme}
-            alt="Novo Drop Supreme"
-            className="rounded-lg shadow-lg"
-          />
+          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative">
+            <span className="bg-[#E7FF86] text-dark-gray-2 font-bold uppercase py-2 px-4 rounded-full shadow-lg">
+              30% Off
+            </span>
 
-          <img
-            src={adidasCollection}
-            alt="Coleção Adidas"
-            className="rounded-lg shadow-lg"
-          />
+            <h3 className="text-4xl font-bold">Novo drop Supreme</h3>
 
-          <img
-            src={newBeatsBass}
-            alt="Novo Beats Bass"
-            className="rounded-lg shadow-lg"
-          />
+            <button
+              type="button"
+              className="bg-white text-primary font-bold rounded-lg p-4 w-36 relative z-10"
+            >
+              Comprar
+            </button>
+
+            <img
+              src={starsWarsStormTrooperSupreme}
+              alt="Stars Wars Storm Trooper Supreme"
+              className="absolute bottom-0 right-0 w-48"
+            />
+          </div>
+
+          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative">
+            <span className="bg-[#E7FF86] text-dark-gray-2 font-bold uppercase py-2 px-4 rounded-full shadow-lg">
+              30% Off
+            </span>
+
+            <h3 className="text-4xl font-bold">Novo drop Supreme</h3>
+
+            <button
+              type="button"
+              className="bg-white text-primary font-bold rounded-lg p-4 w-36 relative z-10"
+            >
+              Comprar
+            </button>
+
+            <img
+              src={sneakerFeaturedCollectionsSection1}
+              alt="Sneaker Featured Collections Section 1"
+              className="absolute bottom-0 right-0 w-48"
+            />
+          </div>
+
+          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative">
+            <span className="bg-[#E7FF86] text-dark-gray-2 font-bold uppercase py-2 px-4 rounded-full shadow-lg">
+              30% Off
+            </span>
+
+            <h3 className="text-4xl font-bold">Novo drop Supreme</h3>
+
+            <button
+              type="button"
+              className="bg-white text-primary font-bold rounded-lg p-4 w-36 relative z-10"
+            >
+              Comprar
+            </button>
+
+            <img
+              src={headphoneFeaturedCollectionsSection1}
+              alt="Headphone Featured Collections Section 1"
+              className="absolute bottom-0 right-0 w-48"
+            />
+          </div>
         </div>
       </section>
 
