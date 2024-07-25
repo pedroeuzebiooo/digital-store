@@ -66,7 +66,7 @@ export function App() {
 
             <button
               type="button"
-              className="bg-white text-primary font-bold rounded-lg p-3 w-36 relative z-10"
+              className="bg-white text-primary font-bold rounded-lg p-3 w-36 relative z-10 hover:bg-light-gray-3"
             >
               Comprar
             </button>
@@ -89,7 +89,7 @@ export function App() {
 
             <button
               type="button"
-              className="bg-white text-primary font-bold rounded-lg p-3 w-36"
+              className="bg-white text-primary font-bold rounded-lg p-3 w-36 hover:bg-light-gray-3"
             >
               Comprar
             </button>
@@ -112,7 +112,7 @@ export function App() {
 
             <button
               type="button"
-              className="bg-white text-primary font-bold rounded-lg p-3 w-36"
+              className="bg-white text-primary font-bold rounded-lg p-3 w-36 hover:bg-light-gray-3"
             >
               Comprar
             </button>
