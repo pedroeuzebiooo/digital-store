@@ -297,7 +297,7 @@ export function App() {
       </section>
 
       <section className="space-y-5 px-5 py-8">
-        <div className="mx-auto flex h-72 w-72 items-center justify-center rounded-full bg-gradient-to-b from-light-gray-3/30 to-white">
+        <div className="mx-auto flex h-72 w-72 items-center justify-center rounded-full bg-gradient-to-b from-light-gray-3 to-white">
           <img src={sneakers} alt="Sneakers" />
         </div>
 
