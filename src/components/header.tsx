@@ -1,6 +1,7 @@
 import { Menu, Search, ShoppingCart, X } from "lucide-react";
 import logo from "../assets/logo.svg";
 import { useState } from "react";
+import classNames from "classnames";
 
 export function Header() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -12,6 +13,11 @@ export function Header() {
   ) {
     setter(!state);
   }
+
+  const searchIconClass = classNames("size-6", {
+    "text-primary": isSearchOpen,
+    "text-light-gray-2": !isSearchOpen,
+  });
 
   return (
     <>
@@ -33,9 +39,7 @@ export function Header() {
               type="button"
               onClick={() => toggleState(isSearchOpen, setIsSearchOpen)}
             >
-              <Search
-                className={`size-6 ${isSearchOpen ? "text-primary" : "text-light-gray-2"}`}
-              />
+              <Search className={searchIconClass} />
             </button>
 
             <button type="button" className="relative">
