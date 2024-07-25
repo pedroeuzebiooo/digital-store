@@ -85,7 +85,7 @@ export function Header() {
                 </button>
               </div>
 
-              <ul className="flex flex-col gap-5">
+              <ul className="flex flex-col justify-center gap-5">
                 <li>
                   <a href="#" className="text-primary font-semibold space-y-2">
                     Home
