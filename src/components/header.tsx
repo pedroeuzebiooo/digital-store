@@ -125,7 +125,7 @@ export function Header() {
 
               <button
                 type="button"
-                className="bg-light-gray-3 text-dark-gray-2 font-semibold rounded-lg px-4 py-2 space-y-0.5"
+                className="bg-light-gray-3 text-dark-gray-2 font-semibold rounded-lg px-4 py-2 space-y-0.5 hover:bg-light-gray-2"
               >
                 Cadastra-se
                 <span className="block h-0.5 w-24 bg-dark-gray-2 mx-auto"></span>
