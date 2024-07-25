@@ -6,28 +6,22 @@ export function Header() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  function openSearch() {
-    setIsSearchOpen(true);
-  }
-
-  function closeSearch() {
-    setIsSearchOpen(false);
-  }
-
-  function openMenu() {
-    setIsMenuOpen(true);
-  }
-
-  function closeMenu() {
-    setIsMenuOpen(false);
+  function toggleState(
+    state: boolean,
+    setter: React.Dispatch<React.SetStateAction<boolean>>,
+  ) {
+    setter(!state);
   }
 
   return (
     <>
       <header className="relative z-10 space-y-5 px-5 py-8 shadow-lg">
         <nav className="flex items-center justify-between">
-          <button type="button">
-            <Menu className="size-6" onClick={openMenu} />
+          <button
+            type="button"
+            onClick={() => toggleState(isMenuOpen, setIsMenuOpen)}
+          >
+            <Menu className="size-6" />
           </button>
 
           <a href="#">
@@ -35,22 +29,17 @@ export function Header() {
           </a>
 
           <div className="flex items-center justify-center gap-4">
-            {isSearchOpen ? (
-              <button type="button">
-                <Search className="size-6 text-primary" onClick={closeSearch} />
-              </button>
-            ) : (
-              <button type="button">
-                <Search
-                  className="size-6 text-light-gray-2"
-                  onClick={openSearch}
-                />
-              </button>
-            )}
+            <button
+              type="button"
+              onClick={() => toggleState(isSearchOpen, setIsSearchOpen)}
+            >
+              <Search
+                className={`size-6 ${isSearchOpen ? "text-primary" : "text-light-gray-2"}`}
+              />
+            </button>
 
             <button type="button" className="relative">
               <ShoppingCart className="size-6 text-primary" />
-
               <span className="absolute right-[-0.25rem] top-[-0.25rem] flex h-4 w-4 items-center justify-center rounded-full bg-error p-1 text-xs font-semibold text-white">
                 2
               </span>
@@ -65,7 +54,6 @@ export function Header() {
               placeholder="Pesquisar produto..."
               className="bg-light-gray-3 text-dark-gray-3 placeholder-dark-gray-3 outline-none"
             />
-
             <button type="button">
               <Search className="size-6 text-light-gray-2" />
             </button>
@@ -79,12 +67,13 @@ export function Header() {
             <div className="space-y-5">
               <div className="flex items-center justify-between">
                 <h3 className="font-semibold text-dark-gray-2">Páginas</h3>
-
-                <button type="button">
-                  <X className="size-6 text-dark-gray-2" onClick={closeMenu} />
+                <button
+                  type="button"
+                  onClick={() => toggleState(isMenuOpen, setIsMenuOpen)}
+                >
+                  <X className="size-6 text-dark-gray-2" />
                 </button>
               </div>
-
               <ul className="flex flex-col justify-center gap-5">
                 <li>
                   <a href="#" className="space-y-2 font-semibold text-primary">
@@ -92,19 +81,16 @@ export function Header() {
                     <span className="block h-0.5 w-12 bg-primary"></span>
                   </a>
                 </li>
-
                 <li>
                   <a href="#" className="text-dark-gray-2">
                     Produtos
                   </a>
                 </li>
-
                 <li>
                   <a href="#" className="text-dark-gray-2">
                     Categorias
                   </a>
                 </li>
-
                 <li>
                   <a href="#" className="text-dark-gray-2">
                     Meus Pedidos
@@ -112,17 +98,14 @@ export function Header() {
                 </li>
               </ul>
             </div>
-
             <div className="flex flex-col gap-5">
               <div className="h-px w-full bg-light-gray"></div>
-
               <button
                 type="button"
                 className="rounded-lg bg-primary p-3 font-semibold text-light-gray-3 transition-colors hover:bg-tertiary"
               >
                 Entrar
               </button>
-
               <button
                 type="button"
                 className="space-y-0.5 rounded-lg bg-light-gray-3 p-3 font-semibold text-dark-gray-2 transition-colors hover:bg-light-gray-2"
