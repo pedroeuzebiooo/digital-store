@@ -17,48 +17,48 @@ import sneakers from "./assets/sneakers.png";
 
 export function App() {
   return (
-    <div className="w-96 mx-auto">
+    <div className="mx-auto w-96">
       <Header />
 
-      <section className="px-5 py-8 bg-light-gray-3 space-y-8 relative">
+      <section className="relative space-y-8 bg-light-gray-3 px-5 py-8">
         <img src={whiteSneakers} alt="White Sneakers" />
 
-        <p className="text-primary font-semibold text-center">
+        <p className="text-center font-semibold text-primary">
           Melhores ofertas personalizadas
         </p>
 
-        <h1 className="text-5xl font-semibold text-center">
+        <h1 className="text-center text-5xl font-semibold">
           Queima de estoque Nike 🔥
         </h1>
 
-        <p className="text-dark-gray-2 text-center">
+        <p className="text-center text-dark-gray-2">
           Consequat culpa exercitation mollit nisi excepteur do do tempor
           laboris eiusmod irure consectetur.
         </p>
 
         <button
           type="button"
-          className="flex justify-center items-center bg-primary text-light-gray-3 font-semibold w-full rounded-lg p-3 hover:bg-tertiary transition-colors"
+          className="flex w-full items-center justify-center rounded-lg bg-primary p-3 font-semibold text-light-gray-3 transition-colors hover:bg-tertiary"
         >
           Ver Ofertas
         </button>
 
-        <div className="flex justify-center items-center gap-5">
-          <div className="w-4 h-4 bg-primary rounded-full"></div>
-          <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
-          <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
-          <div className="w-4 h-4 bg-light-gray-2 rounded-full"></div>
+        <div className="flex items-center justify-center gap-5">
+          <div className="h-4 w-4 rounded-full bg-primary"></div>
+          <div className="h-4 w-4 rounded-full bg-light-gray-2"></div>
+          <div className="h-4 w-4 rounded-full bg-light-gray-2"></div>
+          <div className="h-4 w-4 rounded-full bg-light-gray-2"></div>
         </div>
 
-        <img src={ornament} alt="Ornament" className="absolute top-0 right-0" />
+        <img src={ornament} alt="Ornament" className="absolute right-0 top-0" />
       </section>
 
-      <section className="px-5 py-8 bg-light-gray-3 space-y-5">
-        <h2 className="text-dark-gray-2 font-semibold">Coleções em destaque</h2>
+      <section className="space-y-5 bg-light-gray-3 px-5 py-8">
+        <h2 className="font-semibold text-dark-gray-2">Coleções em destaque</h2>
 
         <div className="flex flex-col justify-center gap-5">
-          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative shadow-lg">
-            <span className="bg-[#E7FF86] text-dark-gray-2 font-semibold uppercase py-2 px-4 rounded-full shadow-lg">
+          <div className="relative space-y-5 rounded-lg bg-[#D8E3F2] p-5 shadow-lg">
+            <span className="rounded-full bg-[#E7FF86] px-4 py-2 font-semibold uppercase text-dark-gray-2 shadow-lg">
               30% Off
             </span>
 
@@ -66,7 +66,7 @@ export function App() {
 
             <button
               type="button"
-              className="bg-white text-primary font-semibold rounded-lg p-3 w-36 relative z-10 hover:bg-light-gray-3 transition-colors"
+              className="relative z-10 w-36 rounded-lg bg-white p-3 font-semibold text-primary transition-colors hover:bg-light-gray-3"
             >
               Comprar
             </button>
@@ -78,8 +78,8 @@ export function App() {
             />
           </div>
 
-          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative shadow-lg">
-            <span className="bg-[#E7FF86] text-dark-gray-2 font-semibold uppercase py-2 px-4 rounded-full shadow-lg">
+          <div className="relative space-y-5 rounded-lg bg-[#D8E3F2] p-5 shadow-lg">
+            <span className="rounded-full bg-[#E7FF86] px-4 py-2 font-semibold uppercase text-dark-gray-2 shadow-lg">
               30% Off
             </span>
 
@@ -89,7 +89,7 @@ export function App() {
 
             <button
               type="button"
-              className="bg-white text-primary font-semibold rounded-lg p-3 w-36 hover:bg-light-gray-3 transition-colors"
+              className="w-36 rounded-lg bg-white p-3 font-semibold text-primary transition-colors hover:bg-light-gray-3"
             >
               Comprar
             </button>
@@ -101,8 +101,8 @@ export function App() {
             />
           </div>
 
-          <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative shadow-lg">
-            <span className="bg-[#E7FF86] text-dark-gray-2 font-semibold uppercase py-2 px-4 rounded-full shadow-lg">
+          <div className="relative space-y-5 rounded-lg bg-[#D8E3F2] p-5 shadow-lg">
+            <span className="rounded-full bg-[#E7FF86] px-4 py-2 font-semibold uppercase text-dark-gray-2 shadow-lg">
               30% Off
             </span>
 
@@ -112,7 +112,7 @@ export function App() {
 
             <button
               type="button"
-              className="bg-white text-primary font-semibold rounded-lg p-3 w-36 hover:bg-light-gray-3 transition-colors"
+              className="w-36 rounded-lg bg-white p-3 font-semibold text-primary transition-colors hover:bg-light-gray-3"
             >
               Comprar
             </button>
@@ -126,62 +126,62 @@ export function App() {
         </div>
       </section>
 
-      <section className="px-5 py-8 bg-light-gray-3 space-y-5">
-        <h2 className="text-dark-gray-2 font-bold">Coleções em destaque</h2>
+      <section className="space-y-5 bg-light-gray-3 px-5 py-8">
+        <h2 className="font-bold text-dark-gray-2">Coleções em destaque</h2>
 
-        <div className="grid grid-cols-2 justify-center items-center gap-5">
-          <div className="flex flex-col justify-center items-center gap-4">
-            <div className="p-5 bg-white rounded-full">
+        <div className="grid grid-cols-2 items-center justify-center gap-5">
+          <div className="flex flex-col items-center justify-center gap-4">
+            <div className="rounded-full bg-white p-5">
               <img src={tShirt} alt="Camiseta" />
             </div>
-            <p className="text-sm text-dark-gray-2 font-bold">Camisetas</p>
+            <p className="text-sm font-bold text-dark-gray-2">Camisetas</p>
           </div>
 
-          <div className="flex flex-col justify-center items-center gap-4">
-            <div className="p-5 bg-white rounded-full">
+          <div className="flex flex-col items-center justify-center gap-4">
+            <div className="rounded-full bg-white p-5">
               <img src={trouser} alt="Calça" />
             </div>
-            <p className="text-sm text-dark-gray-2 font-bold">Calças</p>
+            <p className="text-sm font-bold text-dark-gray-2">Calças</p>
           </div>
 
-          <div className="flex flex-col justify-center items-center gap-4">
-            <div className="p-5 bg-white rounded-full">
+          <div className="flex flex-col items-center justify-center gap-4">
+            <div className="rounded-full bg-white p-5">
               <img src={headphone} alt="Headphone" />
             </div>
-            <p className="text-sm text-dark-gray-2 font-bold">Headphones</p>
+            <p className="text-sm font-bold text-dark-gray-2">Headphones</p>
           </div>
 
-          <div className="flex flex-col justify-center items-center gap-4">
-            <div className="p-5 bg-white rounded-full">
+          <div className="flex flex-col items-center justify-center gap-4">
+            <div className="rounded-full bg-white p-5">
               <img src={sneakerCategory} alt="Tênis" />
             </div>
-            <p className="text-sm text-dark-gray-2 font-bold">Tênis</p>
+            <p className="text-sm font-bold text-dark-gray-2">Tênis</p>
           </div>
         </div>
       </section>
 
-      <section className="px-5 py-8 bg-light-gray-3 space-y-5">
+      <section className="space-y-5 bg-light-gray-3 px-5 py-8">
         <div className="flex items-center justify-between">
-          <h2 className="text-dark-gray-2 font-bold">Coleções em destaque</h2>
+          <h2 className="font-bold text-dark-gray-2">Coleções em destaque</h2>
 
           <a
             href="#"
-            className="text-primary font-bold flex items-center justify-center gap-2"
+            className="flex items-center justify-center gap-2 font-bold text-primary"
           >
             Ver todos
             <ArrowRight className="size-6" />
           </a>
         </div>
 
-        <div className="grid grid-cols-2 justify-center items-center gap-5">
+        <div className="grid grid-cols-2 items-center justify-center gap-5">
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center gap-4 shadow-lg">
-              <span className="block py-1 px-4 bg-[#E7FF86] text-dark-gray-2 uppercase font-bold rounded-full">
+            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-white p-5 shadow-lg">
+              <span className="block rounded-full bg-[#E7FF86] px-4 py-1 font-bold uppercase text-dark-gray-2">
                 30% Off
               </span>
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="font-bold text-light-gray text-sm">Tênis</small>
+            <small className="text-sm font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -190,13 +190,13 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center gap-4 shadow-lg">
-              <span className="block py-1 px-4 bg-[#E7FF86] text-dark-gray-2 uppercase font-bold rounded-full">
+            <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-white p-5 shadow-lg">
+              <span className="block rounded-full bg-[#E7FF86] px-4 py-1 font-bold uppercase text-dark-gray-2">
                 30% Off
               </span>
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="font-bold text-light-gray text-sm">Tênis</small>
+            <small className="text-sm font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -205,10 +205,10 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
+            <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="font-bold text-light-gray text-sm">Tênis</small>
+            <small className="text-sm font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -217,10 +217,10 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
+            <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="font-bold text-light-gray text-sm">Tênis</small>
+            <small className="text-sm font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -229,10 +229,10 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
+            <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="font-bold text-light-gray text-sm">Tênis</small>
+            <small className="text-sm font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -241,10 +241,10 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
+            <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="font-bold text-light-gray text-sm">Tênis</small>
+            <small className="text-sm font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -253,10 +253,10 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
+            <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="font-bold text-light-gray text-sm">Tênis</small>
+            <small className="text-sm font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -265,10 +265,10 @@ export function App() {
           </div>
 
           <div className="flex flex-col justify-center gap-4">
-            <div className="p-5 bg-white rounded-lg flex flex-col justify-center items-center shadow-lg">
+            <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="font-bold text-light-gray text-sm">Tênis</small>
+            <small className="text-sm font-bold text-light-gray">Tênis</small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -278,15 +278,15 @@ export function App() {
         </div>
       </section>
 
-      <section className="px-5 py-8 space-y-5">
-        <div className="w-72 h-72 mx-auto flex justify-center items-center bg-gradient-to-b from-light-gray-3/30 to-white rounded-full">
+      <section className="space-y-5 px-5 py-8">
+        <div className="mx-auto flex h-72 w-72 items-center justify-center rounded-full bg-gradient-to-b from-light-gray-3/30 to-white">
           <img src={sneakers} alt="Sneakers" />
         </div>
 
         <div className="flex flex-col justify-center gap-8">
-          <p className="text-warning font-bold">Oferta especial</p>
+          <p className="font-bold text-warning">Oferta especial</p>
 
-          <h2 className="text-4xl text-dark-gray-2 font-bold">
+          <h2 className="text-4xl font-bold text-dark-gray-2">
             Air Jordan edição de colecionador
           </h2>
 
@@ -299,7 +299,7 @@ export function App() {
 
           <button
             type="button"
-            className="bg-primary text-light-gray-3 font-bold w-48 py-2 px-4 rounded-lg"
+            className="w-48 rounded-lg bg-primary px-4 py-2 font-bold text-light-gray-3"
           >
             Ver Oferta
           </button>
