@@ -80,7 +80,9 @@ export function Header() {
               <div className="flex items-center justify-between">
                 <h3 className="text-dark-gray-2 font-bold">Páginas</h3>
 
-                <X className="size-6 text-dark-gray-2" onClick={closeMenu} />
+                <button type="button">
+                  <X className="size-6 text-dark-gray-2" onClick={closeMenu} />
+                </button>
               </div>
 
               <ul className="flex flex-col gap-5">
