@@ -134,28 +134,28 @@ export function App() {
             <div className="rounded-full bg-white p-5">
               <img src={tShirt} alt="Camiseta" />
             </div>
-            <p className="text-sm font-bold text-dark-gray-2">Camisetas</p>
+            <p className="text-sm font-semibold text-dark-gray-2">Camisetas</p>
           </div>
 
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="rounded-full bg-white p-5">
               <img src={trouser} alt="Calça" />
             </div>
-            <p className="text-sm font-bold text-dark-gray-2">Calças</p>
+            <p className="text-sm font-semibold text-dark-gray-2">Calças</p>
           </div>
 
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="rounded-full bg-white p-5">
               <img src={headphone} alt="Headphone" />
             </div>
-            <p className="text-sm font-bold text-dark-gray-2">Headphones</p>
+            <p className="text-sm font-semibold text-dark-gray-2">Headphones</p>
           </div>
 
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="rounded-full bg-white p-5">
               <img src={sneakerCategory} alt="Tênis" />
             </div>
-            <p className="text-sm font-bold text-dark-gray-2">Tênis</p>
+            <p className="text-sm font-semibold text-dark-gray-2">Tênis</p>
           </div>
         </div>
       </section>
