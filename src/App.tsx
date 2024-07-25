@@ -62,7 +62,7 @@ export function App() {
               30% Off
             </span>
 
-            <h3 className="text-4xl font-bold">Novo drop Supreme</h3>
+            <h3 className="text-4xl font-semibold">Novo drop Supreme</h3>
 
             <button
               type="button"
@@ -83,7 +83,7 @@ export function App() {
               30% Off
             </span>
 
-            <h3 className="text-4xl font-bold">Novo drop Supreme</h3>
+            <h3 className="text-4xl font-semibold">Novo drop Supreme</h3>
 
             <button
               type="button"
@@ -104,7 +104,7 @@ export function App() {
               30% Off
             </span>
 
-            <h3 className="text-4xl font-bold">Novo drop Supreme</h3>
+            <h3 className="text-4xl font-semibold">Novo drop Supreme</h3>
 
             <button
               type="button"
