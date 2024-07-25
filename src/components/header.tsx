@@ -78,7 +78,7 @@ export function Header() {
           <div className="w-80 p-8 bg-white h-full flex flex-col justify-between">
             <div className="space-y-5">
               <div className="flex items-center justify-between">
-                <h3 className="text-dark-gray-2 font-bold">Páginas</h3>
+                <h3 className="text-dark-gray-2 font-semibold">Páginas</h3>
 
                 <button type="button">
                   <X className="size-6 text-dark-gray-2" onClick={closeMenu} />
