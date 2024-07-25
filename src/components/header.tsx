@@ -51,7 +51,7 @@ export function Header() {
             <div className="relative">
               <ShoppingCart className="size-6 text-primary" />
 
-              <span className="flex items-center justify-center w-4 h-4 p-1 rounded-full bg-error text-xs text-white font-bold absolute right-[-0.25rem] top-[-0.25rem]">
+              <span className="flex items-center justify-center w-4 h-4 p-1 rounded-full bg-error text-xs text-white font-semibold absolute right-[-0.25rem] top-[-0.25rem]">
                 2
               </span>
             </div>
