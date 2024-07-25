@@ -183,7 +183,9 @@ export function App() {
               </span>
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="text-sm font-bold text-light-gray">Tênis</small>
+            <small className="text-sm font-semibold text-light-gray">
+              Tênis
+            </small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -198,7 +200,9 @@ export function App() {
               </span>
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="text-sm font-bold text-light-gray">Tênis</small>
+            <small className="text-sm font-semibold text-light-gray">
+              Tênis
+            </small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -210,7 +214,9 @@ export function App() {
             <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="text-sm font-bold text-light-gray">Tênis</small>
+            <small className="text-sm font-semibold text-light-gray">
+              Tênis
+            </small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -222,7 +228,9 @@ export function App() {
             <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="text-sm font-bold text-light-gray">Tênis</small>
+            <small className="text-sm font-semibold text-light-gray">
+              Tênis
+            </small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -234,7 +242,9 @@ export function App() {
             <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="text-sm font-bold text-light-gray">Tênis</small>
+            <small className="text-sm font-semibold text-light-gray">
+              Tênis
+            </small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -246,7 +256,9 @@ export function App() {
             <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="text-sm font-bold text-light-gray">Tênis</small>
+            <small className="text-sm font-semibold text-light-gray">
+              Tênis
+            </small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -258,7 +270,9 @@ export function App() {
             <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="text-sm font-bold text-light-gray">Tênis</small>
+            <small className="text-sm font-semibold text-light-gray">
+              Tênis
+            </small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
@@ -270,7 +284,9 @@ export function App() {
             <div className="flex flex-col items-center justify-center rounded-lg bg-white p-5 shadow-lg">
               <img src={sneaker} alt="Sneaker" />
             </div>
-            <small className="text-sm font-bold text-light-gray">Tênis</small>
+            <small className="text-sm font-semibold text-light-gray">
+              Tênis
+            </small>
             <p className="text-dark-gray-2">K-Swiss V8 - Mascu...</p>
             <div className="flex gap-4">
               <p className="text-light-gray line-through">$200</p>
