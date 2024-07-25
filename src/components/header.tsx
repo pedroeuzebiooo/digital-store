@@ -118,14 +118,14 @@ export function Header() {
 
               <button
                 type="button"
-                className="bg-primary text-light-gray-3 font-semibold rounded-lg px-4 py-2 hover:bg-tertiary transition-colors"
+                className="bg-primary text-light-gray-3 font-semibold rounded-lg p-3 hover:bg-tertiary transition-colors"
               >
                 Entrar
               </button>
 
               <button
                 type="button"
-                className="bg-light-gray-3 text-dark-gray-2 font-semibold rounded-lg px-4 py-2 space-y-0.5 hover:bg-light-gray-2 transition-colors"
+                className="bg-light-gray-3 text-dark-gray-2 font-semibold rounded-lg p-3 space-y-0.5 hover:bg-light-gray-2 transition-colors"
               >
                 Cadastra-se
                 <span className="block h-0.5 w-24 bg-dark-gray-2 mx-auto"></span>
