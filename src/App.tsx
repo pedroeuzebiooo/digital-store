@@ -27,7 +27,7 @@ export function App() {
           Melhores ofertas personalizadas
         </p>
 
-        <h1 className="text-5xl font-bold text-center">
+        <h1 className="text-5xl font-semibold text-center">
           Queima de estoque Nike 🔥
         </h1>
 
