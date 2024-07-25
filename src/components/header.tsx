@@ -36,12 +36,16 @@ export function Header() {
 
           <div className="flex items-center justify-center gap-4">
             {isSearchOpen ? (
-              <Search className="size-6 text-primary" onClick={closeSearch} />
+              <button type="button">
+                <Search className="size-6 text-primary" onClick={closeSearch} />
+              </button>
             ) : (
-              <Search
-                className="size-6 text-light-gray-2"
-                onClick={openSearch}
-              />
+              <button type="button">
+                <Search
+                  className="size-6 text-light-gray-2"
+                  onClick={openSearch}
+                />
+              </button>
             )}
 
             <div className="relative">
@@ -62,7 +66,9 @@ export function Header() {
               className="text-dark-gray-3 placeholder-dark-gray-3 bg-light-gray-3 outline-none"
             />
 
-            <Search className="size-6 text-light-gray-2" />
+            <button type="button">
+              <Search className="size-6 text-light-gray-2" />
+            </button>
           </div>
         )}
       </header>
