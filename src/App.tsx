@@ -56,7 +56,7 @@ export function App() {
       <section className="px-5 py-8 bg-light-gray-3 space-y-5">
         <h2 className="text-dark-gray-2 font-semibold">Coleções em destaque</h2>
 
-        <div className="flex flex-col justify-center items-center gap-5">
+        <div className="flex flex-col justify-center gap-5">
           <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative shadow-lg">
             <span className="bg-[#E7FF86] text-dark-gray-2 font-semibold uppercase py-2 px-4 rounded-full shadow-lg">
               30% Off
@@ -83,11 +83,13 @@ export function App() {
               30% Off
             </span>
 
-            <h3 className="text-4xl font-semibold">Novo drop Supreme</h3>
+            <h3 className="text-4xl font-semibold">
+              Coleção <br /> Adidas
+            </h3>
 
             <button
               type="button"
-              className="bg-white text-primary font-bold rounded-lg p-4 w-36 relative z-10"
+              className="bg-white text-primary font-bold rounded-lg p-4 w-36"
             >
               Comprar
             </button>
@@ -104,11 +106,13 @@ export function App() {
               30% Off
             </span>
 
-            <h3 className="text-4xl font-semibold">Novo drop Supreme</h3>
+            <h3 className="text-4xl font-semibold">
+              Novo <br /> Beats Bass
+            </h3>
 
             <button
               type="button"
-              className="bg-white text-primary font-bold rounded-lg p-4 w-36 relative z-10"
+              className="bg-white text-primary font-bold rounded-lg p-4 w-36"
             >
               Comprar
             </button>
