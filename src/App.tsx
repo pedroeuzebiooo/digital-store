@@ -178,7 +178,7 @@ export function App() {
         <div className="grid grid-cols-2 items-center justify-center gap-5">
           <div className="flex flex-col justify-center gap-4">
             <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-white p-5 shadow-lg">
-              <span className="block rounded-full bg-[#E7FF86] px-4 py-1 font-bold uppercase text-dark-gray-2">
+              <span className="block rounded-full bg-[#E7FF86] px-4 py-1 font-semibold uppercase text-dark-gray-2">
                 30% Off
               </span>
               <img src={sneaker} alt="Sneaker" />
@@ -193,7 +193,7 @@ export function App() {
 
           <div className="flex flex-col justify-center gap-4">
             <div className="flex flex-col items-center justify-center gap-4 rounded-lg bg-white p-5 shadow-lg">
-              <span className="block rounded-full bg-[#E7FF86] px-4 py-1 font-bold uppercase text-dark-gray-2">
+              <span className="block rounded-full bg-[#E7FF86] px-4 py-1 font-semibold uppercase text-dark-gray-2">
                 30% Off
               </span>
               <img src={sneaker} alt="Sneaker" />
