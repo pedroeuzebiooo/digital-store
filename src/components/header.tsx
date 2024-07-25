@@ -26,6 +26,7 @@ export function Header() {
           <button
             type="button"
             onClick={() => toggleState(isMenuOpen, setIsMenuOpen)}
+            aria-label="Open menu"
           >
             <Menu className="size-6" />
           </button>
@@ -38,6 +39,7 @@ export function Header() {
             <button
               type="button"
               onClick={() => toggleState(isSearchOpen, setIsSearchOpen)}
+              aria-label="Open search"
             >
               <Search className={searchIconClass} />
             </button>
