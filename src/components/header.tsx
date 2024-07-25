@@ -26,7 +26,9 @@ export function Header() {
     <>
       <header className="px-5 py-8 relative z-10 shadow-lg space-y-5">
         <nav className="flex items-center justify-between">
-          <Menu className="size-6" onClick={openMenu} />
+          <button type="button">
+            <Menu className="size-6" onClick={openMenu} />
+          </button>
 
           <a href="#">
             <img src={logo} alt="Logo do Digital Store" />
