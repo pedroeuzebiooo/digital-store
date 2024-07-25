@@ -54,7 +54,7 @@ export function App() {
       </section>
 
       <section className="px-5 py-8 bg-light-gray-3 space-y-5">
-        <h2 className="text-dark-gray-2 font-bold">Coleções em destaque</h2>
+        <h2 className="text-dark-gray-2 font-semibold">Coleções em destaque</h2>
 
         <div className="flex flex-col justify-center items-center gap-5">
           <div className="bg-[#D8E3F2] p-5 rounded-lg space-y-5 relative shadow-lg">
