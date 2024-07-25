@@ -87,7 +87,7 @@ export function Header() {
 
               <ul className="flex flex-col gap-5">
                 <li>
-                  <a href="#" className="text-primary font-bold space-y-2">
+                  <a href="#" className="text-primary font-semibold space-y-2">
                     Home
                     <span className="block h-0.5 w-12 bg-primary"></span>
                   </a>
