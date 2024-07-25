@@ -118,7 +118,7 @@ export function Header() {
 
               <button
                 type="button"
-                className="bg-primary text-light-gray-3 font-bold rounded-lg px-4 py-2 hover:bg-tertiary"
+                className="bg-primary text-light-gray-3 font-bold rounded-lg px-4 py-2 hover:bg-tertiary transition-colors"
               >
                 Entrar
               </button>
