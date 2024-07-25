@@ -59,7 +59,7 @@ export function Header() {
         </nav>
 
         {isSearchOpen && (
-          <div className="py-4 px-5 bg-light-gray-3 flex justify-between items-center rounded-lg">
+          <div className="p-3 bg-light-gray-3 flex justify-between items-center rounded-lg">
             <input
               type="search"
               placeholder="Pesquisar produto..."
