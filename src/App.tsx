@@ -304,7 +304,7 @@ export function App() {
         <div className="flex flex-col justify-center gap-8">
           <p className="font-semibold text-warning">Oferta especial</p>
 
-          <h2 className="text-4xl font-bold text-dark-gray-2">
+          <h2 className="text-4xl font-semibold text-dark-gray-2">
             Air Jordan edição de colecionador
           </h2>
 
