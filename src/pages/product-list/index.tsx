@@ -19,7 +19,7 @@ export function ProductListPage() {
             <ChevronDown className="size-6 text-dark-gray-2" />
           </div>
 
-          <div className="rounded-lg bg-primary p-4">
+          <div className="rounded-lg bg-primary p-4 hover:bg-tertiary">
             <Filter className="size-6 text-white" />
           </div>
         </div>
