@@ -19,9 +19,9 @@ export function ProductListPage() {
             <ChevronDown className="size-6 text-dark-gray-2" />
           </div>
 
-          <div className="cursor-pointer rounded-lg bg-primary p-4 transition-colors hover:bg-tertiary">
+          <button className="rounded-lg bg-primary p-4 transition-colors hover:bg-tertiary">
             <Filter className="size-6 text-white" />
-          </div>
+          </button>
         </div>
 
         <div className="flex items-center justify-between">
