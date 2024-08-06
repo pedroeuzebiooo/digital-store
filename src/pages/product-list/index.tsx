@@ -12,6 +12,10 @@ export function ProductListPage() {
     setIsFilterOpen(true);
   }
 
+  function filterClose() {
+    setIsFilterOpen(false);
+  }
+
   return (
     <div className="mx-auto w-96">
       <Header />
@@ -170,7 +174,7 @@ export function ProductListPage() {
             <div className="space-y-5">
               <div className="flex items-center justify-between">
                 <h3 className="font-semibold text-dark-gray-2">Filtrar por</h3>
-                <button type="button">
+                <button type="button" onClick={filterClose}>
                   <X className="size-6 text-dark-gray-2" />
                 </button>
               </div>
