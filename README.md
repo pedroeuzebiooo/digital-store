@@ -56,7 +56,7 @@
 
 <p align="center">
   <a href="https://digital-store-gt-curso-dwfs.vercel.app" target="_blank">
-    <img src="./.github/preview.png" alt="Preview do projeto">
+    <img src="./.github/preview.png" alt="Preview do projeto" width="380">
   </a>
 </p>
 
