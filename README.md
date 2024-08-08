@@ -1,6 +1,6 @@
 <h1 align="center">
-  <a href="#">
-    <img src="./src/assets/logo.svg" alt="Logo do Digital Store" />
+  <a href="https://digital-store-gt-curso-dwfs.vercel.app">
+    <img src="./.github/logo.svg" alt="Logo do Digital Store" />
   </a>
 </h1>
 
@@ -38,8 +38,8 @@
     </a>
   </li>
   <li>
-    <a href="#status">
-      Status
+    <a href="#deploy">
+      Deploy
     </a>
   </li>
   <li>
@@ -53,6 +53,12 @@
     </a>
   </li>
 </ul>
+
+<p align="center">
+  <a href="https://digital-store-gt-curso-dwfs.vercel.app" target="_blank">
+    <img src="./.github/preview.png" alt="Preview do projeto">
+  </a>
+</p>
 
 ## Sobre
 
@@ -143,9 +149,9 @@ pnpm run dev
 
 Visualize o layout do projeto através <a href="https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30" target="_blank">DESSE LINK</a>. É necessário ter conta no <a href="https://figma.com" target="_blank">Figma</a> para acessá-lo.
 
-## Status
+## Deploy
 
-- O projeto ainda está em desenvolvimento
+- [Exibir projeto](https://digital-store-gt-curso-dwfs.vercel.app)
 
 ## Autor
 
