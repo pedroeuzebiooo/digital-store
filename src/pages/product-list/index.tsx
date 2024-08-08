@@ -20,7 +20,7 @@ export function ProductListPage() {
     <div className="mx-auto w-96">
       <Header />
 
-      <section className="py- py8 space-y-5 bg-light-gray-3 px-5 py-8">
+      <section className="space-y-5 bg-light-gray-3 px-5 py-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 rounded-lg border border-dark-gray-2 p-4">
             <p className="text-sm text-dark-gray-2">
